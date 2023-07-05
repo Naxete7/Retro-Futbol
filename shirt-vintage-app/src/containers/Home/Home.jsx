@@ -12,7 +12,7 @@ const home= () =>{
         <Container>
             <Row>
                 <Col>
-                    
+                
                 </Col>
             </Row>
         </Container>
