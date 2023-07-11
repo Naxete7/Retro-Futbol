@@ -11,7 +11,9 @@ const home= () =>{
     return (
         <Container>
             <Row>
-              
+                <Col>
+               
+                </Col>
             </Row>
         </Container>
     )
