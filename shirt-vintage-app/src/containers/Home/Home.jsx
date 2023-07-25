@@ -9,14 +9,14 @@ import { Col, Container, Row } from "react-bootstrap";
 const home= () =>{
     
     return (
-        <Container>
-            <Row>
-                <Col>
-               
-                </Col>
-            </Row>
-        </Container>
-    )
+      <Container>
+        <Row>
+          <Col>
+            <p>HOla</p>
+          </Col>
+        </Row>
+      </Container>
+    );
 }
 
 export default home
