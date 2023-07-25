@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.scss";
-import { Col, Container, Row } from "react-bootstrap";
+
 
 
 
@@ -9,13 +9,7 @@ import { Col, Container, Row } from "react-bootstrap";
 const home= () =>{
     
     return (
-      <Container>
-        <Row>
-          <Col>
-            <p>HOla</p>
-          </Col>
-        </Row>
-      </Container>
+     <div className="homeDesign">soy el home</div>
     );
 }
 
