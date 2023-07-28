@@ -9,7 +9,7 @@ import "./Home.scss";
 const home= () =>{
     
     return (
-     <div className="homeDesign"></div>
+     <div className="homeDesign">Soy home</div>
     );
 }
 
