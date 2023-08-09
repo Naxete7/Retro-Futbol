@@ -9,8 +9,10 @@ import "./Home.scss";
 const home= () =>{
     
     return (
-     <div className="homeDesign">Soy el Home</div>
+        <div className="homeDesign">Soy el Home</div>
+        
     );
+    
 }
 
 export default home;

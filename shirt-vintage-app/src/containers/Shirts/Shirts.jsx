@@ -4,7 +4,7 @@ import "./Shirts.scss"
 
 const Shirts = () => {
     return ( 
-        <div className="shirtsDesign"></div>
+        <div className="shirtsDesign">Soy Camisetas</div>
     )
 }
 
