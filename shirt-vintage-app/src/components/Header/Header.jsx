@@ -5,7 +5,9 @@ import "./Header.scss";
 
 const header = () => {
      
-      
+    <div>
+          Shirt vintage
+      </div>
 }
 
 
