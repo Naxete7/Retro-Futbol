@@ -14,30 +14,46 @@ function IndividualIntervalsExample() {
     >
       <Row className="carouselDesign d-flex justify-content-center mb-5">
         <Col className="carouselDesign w-80 ">
-          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={ford} class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src={val1991} class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src={liv1960} class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+          <Carousel className="carouselDesign d-flex justify-content-center">
+            <Carousel.Item interval={1000}>
+              <img
+                className="d-block w-100 d-flex justify-item-center"
+                src={ford}
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h2></h2>
+                <p></p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+              <img
+                className="d-block w-100 d-flex justify-item-center"
+                src={liv1960}
+                alt="Second slide"
+              />
+              <Carousel.Caption className="">
+                <h3 className=""></h3>
+                <p className="">
+                 
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 d-flex justify-item-center"
+                src={val1991}
+                alt="Third slide"
+              />
+              <Carousel.Caption>
+                <h3></h3>
+                <p></p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
         </Col>
       </Row>
-   
+      
     </Container>
   );
 }
